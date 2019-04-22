@@ -1,0 +1,50 @@
+html{
+    scroll-behavior: smooth;
+}
+.section-search input{
+    padding: 3px !important;
+    font-size: 20px !important;
+    width: 90% !important;
+    border:#f4f4f4 3px solid !important;
+}
+#mobile-nav{
+    padding:50px 0 0 0;
+}
+.sidenav li{
+    margin:20px 0 20px 5px;
+}
+.sidenav h3{
+    font-family: sans-serif;
+    margin:20px 0 20px 5px;
+}
+.section-follow .fa-3x{
+    margin:5px 10px;
+}
+.sidenav{
+    background: rgba( 255, 255, 255, .8);
+}
+.sidenav h4{
+    margin:20px;
+    font-family: Tahoma;
+}
+.collection{
+    width: 50%
+}
+.btn{
+    
+    padding: 0 30px 0 30px;
+    color: #f4f4f4;
+}
+.indicators{
+    background: rgb(0, 150, 136);
+    padding: 9px;
+}
+
+#search input:focus{
+    box-shadow: 0 0 20px rgb(0, 78, 78);
+}
+.footer{
+  font-size: 20px;
+  color: white;
+}
+

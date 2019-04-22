@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TravelAgency | Registration</title>
+    <link rel="stylesheet" href="registerStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+        <div class="navbar-fixed">
+                <nav class="teal">
+                    <div class="paddings">
+                        <div class="nav-wrapper">
+                            <a href="" class="brand-logo">TravelAgency</a>
+                            <a href="" data-target="mobile-nav" class="sidenav-trigger">
+                                <i class="material-icons">menu</i>
+                            </a>
+        
+        
+                            <ul class="right hide-on-med-and-down">
+                                <li>
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li>
+                                        <a href="index.html">Search</a>
+                                </li>
+                                <li>
+                                        <a href="index.html">Gallery</a>
+                                </li>
+                                <li>
+                                        <a href="index.html">Contact</a>
+                                </li>
+                                
+                            </ul>
+        
+        
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        
+        
+        
+            <ul class="sidenav" id="mobile-nav">
+                <H4>TravelAgency</H4>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                            <a href="index.html">Search</a>
+                    </li>
+                    <li>
+                            <a href="index.html">Gallery</a>
+                    </li>
+                    <li>
+                            <a href="index.html">Contact</a>
+                    </li>
+                    <li>
+                            <a href="login form.html">LogIn</a>
+                    </li>
+                </ul>
+        
+        
+</body>
+
+
+
+
+
+
+
+<div class="container col s8">
+       <h4>REGISTRATION</h4>
+        <form class="col s14">
+          <div class="row">
+            <div class="input-field  col s6">
+              <i class="material-icons prefix">contacts</i>
+              <input id="first_name" type="text" class="validate">
+              <label for="first_name">First Name</label>
+            </div>
+            <div class="input-field  col s6">
+              <i class="material-icons prefix">contacts</i>
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Last Name</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field  col s6">
+              <i class="material-icons prefix">account_circle</i>
+              <input id="username" type="text" class="validate">
+              <label for="username">Username</label>
+            </div>
+            <div class="input-field  col s6">
+              <i class="material-icons prefix">email</i>
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field  col s6">
+              <i class="material-icons prefix">vpn_key</i>
+              <input id="password" type="password" class="validate">
+              <label for="password">Password</label>
+            </div>
+            <div class="input-field  col s6">
+              <i class="material-icons prefix">replay</i>
+              <input id="password2" type="password" class="validate">
+              <label for="password2">Retype Password</label>
+            </div>
+          </div>
+          <a class="waves-effect waves-light btn right "><i class="large material-icons right">done</i>register</a>
+        </form>
+        <p>Already Have an Account? <a href="login form.html">Login Now!</a></p>
+      
+      </div>
+      <footer class="section white-text teal dareken-4 center">
+            <p class="flow-text">TravelAgency &copy 2019 By Hassan Mostafa </p>
+        </footer>
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+      <script>
+      var password = document.getElementById("password")
+  , password2 = document.getElementById("password2");
+
+function validatePassword(){
+  if(password.value != password2.value) {
+    password2.setCustomValidity("Passwords Don't Match");
+  } else {
+    password2.setCustomValidity('');
+  }
+}
+
+password.onchange = validatePassword;
+password2.onkeydown = validatePassword;
+
+
+
+
+
+       //sidenav
+   const sideNav = document.querySelector('.sidenav');
+   M.Sidenav.init(sideNav,{});
+
+
+   
+      </script>

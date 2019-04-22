@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>TravelAgency | Register Form</title>
+    <link rel="stylesheet" href="styleFrom.css">
+
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body id="home" class="scrollspy">
+    <div class="navbar-fixed">
+        <nav class="teal">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="" class="brand-logo">TravelAgency</a>
+                    <a href="" data-target="mobile-nav" class="sidenav-trigger">
+                        <i class="material-icons">menu</i>
+                    </a>
+
+
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                                <a href="index.html">Search</a>
+                        </li>
+                        <li>
+                                <a href="index.html">Gallery</a>
+                        </li>
+                        <li>
+                                <a href="index.html">Contact</a>
+                        </li>
+                        
+                    </ul>
+
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+
+    <ul class="sidenav" id="mobile-nav">
+        <H4>TravelAgency</H4>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                    <a href="index.html">Search</a>
+            </li>
+            <li>
+                    <a href="index.html">Gallery</a>
+            </li>
+            <li>
+                    <a href="index.html">Contact</a>
+            </li>
+            
+        </ul>
+
+
+
+        <div class="container">
+            <div class="col s12 m8">
+                    <div class="card-panel lighten-3">
+                        <h5>LOGIN</h5>
+                        <div class="input-field">
+                            <input type="text" placeholder="First Name">
+                        </div>
+
+                        <div class="input-field">
+                            <input type="text" placeholder="Last Name">
+                        </div>
+
+                        <div class="input-field">
+                                <input type="email" placeholder="Email">
+                         </div>
+
+                         <div class="input-field">
+                                <input type="password" placeholder="password">
+                         </div>
+
+                        <div class="input-field">
+                                    <input type="text" placeholder="Phone">
+                         </div>
+                    
+                        <div class="input-field">
+                                <a type="submit" value="Submit" class="  btn large teal ">Login</a>
+                        </div>
+
+                        <div class="input-field">
+                           <p>Don't Have an Account <a class="register" href="">Register Now!</a></p>
+
+                    </div>
+                </div>
+
+        </div>
+
+</div>
+
+
+        <footer class="section teal dareken-4 center">
+                <p class="flow-text">TravelAgency &copy 2019 By Hassam Mostafa </p>
+            </footer>
+             <!--JavaScript at end of body for optimized loading-->
+               <!--JavaScript at end of body for optimized loading-->
+               <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+               
+                
+               <script>
+                   //sidenav
+               const sideNav = document.querySelector('.sidenav');
+               M.Sidenav.init(sideNav,{});
+            
+            
+               
+            
+            //slider
+              const slider = document.querySelector('.slider');
+              M.Slider.init(slider, {
+                  indicators: true,
+                  height: 500,
+                  transistion: 500,
+                  interval: 6000
+              });
+</script>            
